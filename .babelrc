@@ -1,0 +1,5 @@
+// This file is needed for Jest only. App works fine with all these configs in webpack.common.js
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["transform-class-properties", "@babel/plugin-transform-runtime"],
+}
